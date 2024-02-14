@@ -19,22 +19,22 @@ function Home() {
     {
       id: 1,
       icons: <BsGithub />,
-      href: "",
+      href: "www.github.com/marcorlino",
     },
     {
       id: 2,
       icons: <BsLinkedin />,
-      href: "",
+      href: "www.linkedin.com/marcangeloorlino114925",
     },
     {
       id: 3,
       icons: <BsFacebook />,
-      href: "",
+      href: "www.facebook.com/marcangeloorlino",
     },
     {
       id: 4,
       icons: <BsInstagram />,
-      href: "",
+      href: "www.instagram.com/marc.orlinooooo",
     },
     {
       id: 5,
@@ -55,10 +55,10 @@ function Home() {
 
   return (
     <div className="h-screen">
-      <div className="text-center pt-20">
+      <div className="flex flex-col items-center justify-center pt-52">
         <p className={"text-[40px]"}>Hello there! I'm</p>
 
-        <div className="font-bold text-[60px]">
+        <div className="font-bold text-[60px] bg-gradient-to-r from-rose-400 via-orange-400 to-yellow-400 text-transparent bg-clip-text">
           <Typewriter
             options={{
               strings: ["Marc Angelo Orlino"],
@@ -76,19 +76,26 @@ function Home() {
           {links.map((link) => (
             <li
               key={link.id}
-              className="p-3 rounded-full shadow-md animate-bounce bg-white"
+              className="p-3 rounded-full shadow-xl shadow-orange-400 animate-bounce bg-white"
             >
-              <Link href={link.href} className="text-2xl">
+              <Link href={link.href} className="text-2xl text-black">
                 {link.icons}
               </Link>
             </li>
           ))}
         </ul>
       </div>
-      <div className="w-full flex items-center justify-center pt-14">
-        <button className="rounded-md p-2 bg-secondary text-white font-bold text-2xl px-6 hover:text-black hover:bg-transparent hover:border-2 border-black duration-300 ease-out">
-          <Link href={"#about"}> About Me</Link>
-        </button>
+      <div className="flex items-center justify-center pt-14">
+        <div className="relative">
+          <span className="absolute bg-orange-500 top-1 w-full bottom-[-5px] rounded-md -left-2">
+            &nbsp;
+          </span>
+          <Link href={"#about"}>
+            <button className="rounded-md -translate-x-3 hover:-translate-x-2 hover:translate-y-1 p-2 bg-white text-black font-bold text-2xl px-6 hover:border-2 border-white duration-200 ease-out">
+              About Me
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );

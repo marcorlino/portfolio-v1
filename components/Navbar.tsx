@@ -28,16 +28,17 @@ function Navbar() {
 
   return (
     <>
-      <div className="px-[80px] py-[30px] flex items-center justify-between bg-primarydark">
+      <div className="px-[80px] py-[30px] flex items-center justify-between bg-orange-400 fixed w-full z-50">
         <a href="#Home">
           <Image src={Logo} className="w-20" alt="logo" />
         </a>
         <ul className="justify-center space-x-10 hidden sm:flex">
           {links.map((link) => (
-            <li key={link.id} className="font-bold ">
-              <a href={link.url} className="text-lg text-white">
+            <li key={link.id} className="font-bold relative group">
+              <a href={link.url} className="text-2xl">
                 {link.name}
               </a>
+              <div className="absolute duration-200 ease-linear w-0 group-hover:w-full h-[2px] bg-black" />
             </li>
           ))}
         </ul>
