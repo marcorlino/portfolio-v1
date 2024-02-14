@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import React from "react";
 import {
@@ -53,9 +54,9 @@ function Home() {
   ];
 
   return (
-    <>
-      <div className="text-center">
-        <p className="text-[40px]">Hello there! I'm</p>
+    <div className="h-screen">
+      <div className="text-center pt-20">
+        <p className={"text-[40px]"}>Hello there! I'm</p>
 
         <div className="font-bold text-[60px]">
           <Typewriter
@@ -71,7 +72,7 @@ function Home() {
       </div>
 
       <div>
-        <ul className="flex justify-center items-center space-x-8 py-4">
+        <ul className="flex justify-center items-center space-x-8 pt-8">
           {links.map((link) => (
             <li
               key={link.id}
@@ -84,7 +85,12 @@ function Home() {
           ))}
         </ul>
       </div>
-    </>
+      <div className="w-full flex items-center justify-center pt-14">
+        <button className="rounded-md p-2 bg-secondary text-white font-bold text-2xl px-6 hover:text-black hover:bg-transparent hover:border-2 border-black duration-300 ease-out">
+          <Link href={"#about"}> About Me</Link>
+        </button>
+      </div>
+    </div>
   );
 }
 
