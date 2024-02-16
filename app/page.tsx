@@ -13,7 +13,7 @@ function Main() {
         <section id="Home">
           <Home />
         </section>
-        <section id="about">
+        <section id="about" className="scroll-mt-24">
           <About />
         </section>
         <section id="skills"></section>
