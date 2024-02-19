@@ -24,6 +24,7 @@ interface CertiProps {
   id: number;
   name: string;
   date: string;
+  href: string;
   src: StaticImageData;
 }
 
@@ -71,18 +72,21 @@ function Home() {
       id: 1,
       name: "Microsoft: Azure Fundamentals",
       date: "November 11, 2023",
+      href: "https://learn.microsoft.com/api/credentials/share/en-us/MarcAngeloOrlino-3524/41BF2177D332C5C8?sharingId=651AAE8D8EB3335E",
       src: AZ,
     },
     {
       id: 2,
       name: "Google Workspace Administrator",
       date: "December 04, 2023",
+      href: "https://google.accredible.com/09adfd94-4e0f-4c0a-b822-47bcd56b1acb#gs.4oreqk",
       src: GWA,
     },
     {
       id: 3,
       name: "Google Associate Cloud Engineer",
       date: "February 09, 2024",
+      href: "https://google.accredible.com/84bd414e-7b77-4c30-914f-74709a5fb56d#gs.4orjqj",
       src: ACE,
     },
   ];
@@ -141,7 +145,13 @@ function Home() {
             <div className="h-[375px] w-[350px] mt-16 flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl">
               <div className="mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-60">
                 <div key={cert.id} className="flex items-center justify-center">
-                  <Image src={cert.src} alt="certification" className="h-60" />
+                  <Link href={cert.href} target="_blank">
+                    <Image
+                      src={cert.src}
+                      alt="certification"
+                      className="h-60"
+                    />
+                  </Link>
                 </div>
               </div>
               <div className="text-center">
