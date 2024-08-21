@@ -108,7 +108,6 @@ function Home() {
       src: CNE,
     }
     
-
   ];
 
   return (
