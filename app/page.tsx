@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Home from "@/components/Home";
 import Navbar from "@/components/Navbar";
+import Skills from "@/components/Skills";
 import React from "react";
 
 function Main() {
@@ -16,7 +17,9 @@ function Main() {
         <section id="about" className="scroll-mt-24">
           <About />
         </section>
-        <section id="skills"></section>
+        <section id="skills" className="scroll-mt-24">
+          <Skills />
+        </section>
         <section id="projects"></section>
         <section id="contact"></section>
       </main>
