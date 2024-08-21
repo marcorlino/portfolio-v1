@@ -107,6 +107,8 @@ function Home() {
       href: "https://www.credly.com/badges/b515e02a-4122-493a-ad98-340d8ebabc49/public_url",
       src: CNE,
     }
+    
+
   ];
 
   return (
