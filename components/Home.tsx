@@ -81,27 +81,30 @@ function Home() {
       id: 2,
       name: "Google Workspace Administrator",
       date: "December 04, 2023",
-      href: "https://google.accredible.com/09adfd94-4e0f-4c0a-b822-47bcd56b1acb#gs.4oreqk",
+      href: "https://www.credly.com/badges/3a304910-98a7-47ba-afaf-f4934aa1639c/public_url",
       src: GWA,
     },
     {
       id: 3,
-      name: "Google Associate Cloud Engineer",
+      name: "Associate Cloud Engineer",
       date: "February 09, 2024",
-      href: "https://google.accredible.com/84bd414e-7b77-4c30-914f-74709a5fb56d#gs.4orjqj",
+      href: "https://www.credly.com/badges/ad0d09ca-147c-481f-9c04-74db0293ca84/public_url",
       src: ACE,
     },
 
     {
       id: 4,
-      name: "Cloud DevOps Engineer",
+      name: "Professional Cloud DevOps Engineer",
       date: "February 24, 2024",
+      href: "https://www.credly.com/badges/4889c37c-cb6e-4696-818a-0caad0450336/public_url",
       src: DevOps,
     },
+    
     {
       id: 5,
-      name: "Google Certified Network Engineer",
+      name: "Professional Cloud Network Engineer",
       date: "May 19, 2024",
+      href: "https://www.credly.com/badges/b515e02a-4122-493a-ad98-340d8ebabc49/public_url",
       src: CNE,
     }
   ];
