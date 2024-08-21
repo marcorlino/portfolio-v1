@@ -7,9 +7,9 @@ import React from "react";
 function Main() {
   return (
     <div className="text-white">
-      {/* <nav>
+      <nav>
         <Navbar />
-      </nav> */}
+      </nav>
       <main>
         <section id="Home">
           <Home />
