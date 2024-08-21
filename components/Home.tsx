@@ -55,17 +55,17 @@ function Home() {
     {
       id: 5,
       icons: <BsTiktok />,
-      href: "https://www.tiktok.com",
+      href: "https://www.tiktok.com/@marc.orlinooooo",
     },
     {
       id: 6,
       icons: <BsTwitterX />,
-      href: "https://www.twitter.com",
+      href: "https://x.com/SampangOrlino",
     },
     {
       id: 7,
       icons: <BsThreads />,
-      href: "https://threads.net",
+      href: "https://www.threads.net/@marc.orlinooooo",
     },
   ];
 
@@ -159,7 +159,7 @@ function Home() {
             </Link>
           </div>
         </div>
-        <div className="flex justify-center items-center gap-5">
+        <div className="flex justify-center items-center gap-7">
           {certi.map((cert) => (
             <div className="h-[375px] w-[350px] mt-16 flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl">
               <div className="mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-60">

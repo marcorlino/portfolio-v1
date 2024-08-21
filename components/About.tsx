@@ -17,7 +17,7 @@ function About() {
           ></Image>
         </div>
 
-        <div className="text-xl text-justify w-[600px]">
+        <div className="text-xl text-justify w-[650px]">
           <p>
             Welcome to my web portfolio! I'm{" "}
             <span className="text-orange-400">Marc Angelo Orlino</span>, a
