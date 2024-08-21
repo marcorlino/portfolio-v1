@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Logo from "/assets/logo.png";
+
 
 function Navbar() {
   const links = [
@@ -29,9 +29,7 @@ function Navbar() {
   return (
     <>
       <div className="px-[80px] py-[10px] flex items-center justify-between bg-orange-400 fixed w-full z-50">
-        <a href="#Home">
-          <Image src={Logo} className="w-20" alt="logo" />
-        </a>
+        
         <ul className="justify-center space-x-10 hidden sm:flex">
           {links.map((link) => (
             <li key={link.id} className="font-bold relative group">

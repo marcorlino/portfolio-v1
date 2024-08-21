@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import jcena from "@/assets/jcena.jpg";
+import self from "@/assets/self.jpeg";
 import Layout from "./Layout";
 import Link from "next/link";
 
@@ -11,9 +11,9 @@ function About() {
       <div className="flex justify-evenly items-center w-full">
         <div className="h-[400px] w-[400px] bg-white">
           <Image
-            src={jcena}
-            alt="cantseeme"
-            className="h-[400px] w-[400px]"
+            src={self}
+            alt="gradpic"
+            className="h-[500px] w-[500px]"
           ></Image>
         </div>
 

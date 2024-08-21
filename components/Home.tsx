@@ -12,9 +12,11 @@ import {
   BsTwitterX,
 } from "react-icons/bs";
 
-import ACE from "@/assets/ACE.jpg";
-import AZ from "@/assets/AZ.jpg";
-import GWA from "@/assets/GWA.jpg";
+import ACE from "@/assets/ACE.png";
+import AZ from "@/assets/Azure.png";
+import GWA from "@/assets/GWS.png";
+import DevOps from "@/assets/Devops.png";
+import CNE from "@/assets/CNE.png";
 
 import Typewriter from "typewriter-effect";
 import Layout from "./Layout";
@@ -85,6 +87,19 @@ function Home() {
       date: "February 09, 2024",
       src: ACE,
     },
+
+    {
+      id: 4,
+      name: "Cloud DevOps Engineer",
+      date: "February 24, 2024",
+      src: DevOps,
+    },
+    {
+      id: 5,
+      name: "Google Certified Network Engineer",
+      date: "May 19, 2024",
+      src: CNE,
+    }
   ];
 
   return (
