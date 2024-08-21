@@ -20,8 +20,8 @@ function Main() {
         <section id="skills" className="scroll-mt-24">
           <Skills />
         </section>
-        <section id="projects"></section>
-        <section id="contact"></section>
+        {/* <section id="projects"></section>
+        <section id="contact"></section> */}
       </main>
     </div>
   );

@@ -39,7 +39,7 @@ function About() {
             As an aspiring full-stack developer, I am dedicated to continuous
             learning and innovation in the ever-evolving world of technology
           </p>
-          <div className="flex items-center justify-center pt-5">
+          <div className="flex items-center justify-center pt-10">
             <div className="relative">
               <span className="absolute bg-orange-500 top-1 w-full bottom-[-5px] rounded-md -left-2">
                 &nbsp;

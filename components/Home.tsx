@@ -112,8 +112,8 @@ function Home() {
 
   return (
     <Layout>
-      <div className="">
-        <div className="flex flex-col items-center justify-center pt-52">
+      <div>
+        <div className="flex flex-col items-center justify-center pt-24">
           <p className={"text-[40px]"}>Hello there! I'm</p>
 
           <div className="font-bold text-[60px] bg-gradient-to-r from-rose-400 via-orange-400 to-yellow-400 text-transparent bg-clip-text">
